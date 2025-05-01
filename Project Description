@@ -1,0 +1,51 @@
+📄 1. Project Description (One Page)
+Project Title: Loan Management System Database
+Group Members:
+
+
+
+
+
+
+Project Description
+In the modern financial environment, loan systems play a vital role in enabling access to credit for individuals and businesses. This project aims to design and implement a relational database for a Loan Management System that supports the core processes involved in loan issuance, repayment tracking, and client management.
+
+The database system is designed for a micro-financing institution that provides short- to medium-term personal and business loans. The primary users of the system include loan officers, clients, and finance administrators. The system ensures that client records, loan applications, approvals, repayments, and outstanding balances are handled efficiently and transparently.
+
+Business Rules & Requirements
+Client Management:
+
+Each client must be registered with personal and contact information.
+
+A client can have multiple loan applications.
+
+Loan Issuance:
+
+A loan contains details such as the loan amount, interest rate, term length, start date, and status.
+
+Loans must be linked to an approving loan officer, who reviews and approves or rejects applications.
+
+Repayment Tracking:
+
+Clients repay loans in installments. Each repayment must be recorded with the amount paid and date.
+
+The system should be able to calculate outstanding balances using loan terms and repayment history.
+
+Loan Officers & Approvals:
+
+Loan officers are responsible for reviewing loan applications.
+
+Each loan must be approved or rejected by a single officer, and the approval decision must be logged.
+
+Reporting Requirements:
+
+The system must be able to generate reports, such as:
+
+Clients with outstanding loans
+
+Loan repayment history
+
+Loans approved in a given time frame
+
+The proposed database is normalized to eliminate redundancy and maintain integrity, supporting scalability and ease of maintenance.
+
